@@ -1,0 +1,20 @@
+services:
+  db:
+    image: postgres:16-alpine
+    container_name: rwa_postgres
+    environment:
+      POSTGRES_USER: rwa
+      POSTGRES_PASSWORD: rwa_secret
+      POSTGRES_DB: rwa_ledger
+    ports:
+      - "5432:5432"
+    volumes:
+      - rwa_pgdata:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U rwa -d rwa_ledger"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  rwa_pgdata:
