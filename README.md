@@ -25,7 +25,6 @@ docker compose up -d
 
 ```bash
 copy .env.example .env
-
 ```
 
 Optional: set `OPENAI_API_KEY` for LLM document parsing. Without it, the regex fallback extractor is used.
