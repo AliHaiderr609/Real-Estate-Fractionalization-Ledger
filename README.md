@@ -18,7 +18,6 @@ FastAPI + PostgreSQL engine for real-world asset fractionalization, concurrent-s
 ```bash
 
 docker compose up -d
-
 ```
 
 ### 2. Configure environment
