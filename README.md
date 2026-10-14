@@ -24,6 +24,7 @@ docker compose up -d
 ### 2. Configure environment
 
 ```bash
+
 copy .env.example .env
 
 ```
