@@ -33,6 +33,7 @@ Optional: set `OPENAI_API_KEY` for LLM document parsing. Without it, the regex f
 ### 3. Install & run API
 
 ```bash
+
 python -m venv .venv
 .venv\Scripts\activate
 pip install -r requirements.txt
