@@ -78,6 +78,7 @@ platform_fee      = rental_income × PLATFORM_FEE_PERCENT / 100
 distributable     = rental_income − platform_fee
 ownership         = holder.token_balance / property.tokens_minted
 net_payout        = distributable × ownership   (last holder absorbs residual cents)
+
 ```
 
 All money math uses `Decimal` with `ROUND_HALF_UP` to two places.
