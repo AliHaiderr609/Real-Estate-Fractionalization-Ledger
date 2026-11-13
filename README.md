@@ -56,6 +56,7 @@ streamlit run app_dashboard.py
 - **TokenLedger** — `id`, `property_id`, `owner_wallet`, `token_balance`, `purchase_timestamp`
 - **LedgerTransaction** — immutable audit trail for `mint`, `yield_payout`, and `fee`
 
+
 ## Key endpoints
 
 | Method | Path | Description |
