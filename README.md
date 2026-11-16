@@ -82,4 +82,5 @@ net_payout        = distributable × ownership   (last holder absorbs residual c
 
 ```
 
+
 All money math uses `Decimal` with `ROUND_HALF_UP` to two places.
