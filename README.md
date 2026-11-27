@@ -28,6 +28,7 @@ docker compose up -d
 copy .env.example .env
 
 ```
+
 Optional: set `OPENAI_API_KEY` for LLM document parsing. Without it, the regex fallback extractor is used.
 
 ### 3. Install & run API
